@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "name": "react-start-kit",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "webpack",
+    "react",
+    "css",
+    "eslint"
+  ],
+  "homepage": "https://github.com/lastingyeh",
+  "repository": "react start-kit",
+  "author": "lastingyeh",
+  "description": "start-kit for react, and some modules needed",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --progress --inline --colors --open",
+    "build": "webpack --config webpack-production.config.js --progress --colors"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
